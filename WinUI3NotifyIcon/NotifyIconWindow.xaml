@@ -1,0 +1,22 @@
+<Window
+    x:Class="WinUI3NotifyIcon.NotifyIconWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="using:WinUI3NotifyIcon"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="NotifyIconWindow"
+    mc:Ignorable="d">
+
+    <StackPanel HorizontalAlignment="Center" Orientation="Vertical">
+        <AppBarButton
+            Click="Open_Click"
+            Icon="OpenPane"
+            Label="Open App" />
+        <AppBarSeparator />
+        <AppBarButton
+            Click="Quit_Click"
+            Icon="ClosePane"
+            Label="Quit" />
+    </StackPanel>
+</Window>

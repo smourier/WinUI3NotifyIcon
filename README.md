@@ -1,5 +1,6 @@
 # WinUI3NotifyIcon
 A WinUI3 application that has a notify icon in the system tray. Once the icon in the notification has been clicked, a full WinUI3's `Window` is displayed.
+The project targets .NET 8 and higher and is AOT compatible.
 
 For example, this consider this window's XAML:
 
